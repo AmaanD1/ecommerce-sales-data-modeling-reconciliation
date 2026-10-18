@@ -1,6 +1,15 @@
 # E-Commerce Sales: Revenue Reconciliation, Data Modeling & Multi-Table Analysis
 
 ## 1. Project Overview
+# E-Commerce Sales: Revenue Reconciliation, Data Modeling & Multi-Table Analysis
+
+> **Dataset Size Notice:** Due to GitHub's 25 MB web upload limit on 150K+ multi-table transaction files, the complete, interactive workbook is hosted on Google Drive.
+
+### 📥 Project Access
+* **Full Interactive Workbook (.xlsb, ~80 MB):** [Click to Download via Google Drive](https://docs.google.com/spreadsheets/d/1MhA84TKiPsM6kHXba7nENGOXUynVFisc/edit?usp=sharing&ouid=109898599342743215918&rtpof=true&sd=true)
+* **Visual Previews:** See the embedded dashboard and schema screenshots below.
+
+---
 
 * **Scope & Objective:** Sourced an enterprise e-commerce dataset containing 150,000+ transactions spanning 2021 through 2025 across four sheets. The primary objective was to audit, scrub, and structure the raw transactional data into a high-performance analytical model in Microsoft Excel to verify reporting integrity against a published revenue benchmark.
 * **Core Technical Hurdles:** Diagnosed and resolved widespread formatting and structural issues: trimmed redundant whitespace (`TRIM`), converted numbers stored as text into true numeric data types, pasted values via Paste Special to remove formula dependencies, and used Go To Special (`Ctrl + G`) to isolate and handle blank cells. During relationship configuration in Power Pivot, resolved primary key duplication errors to enable active relationships. Diagnosed a multi-million-dollar calculation mismatch that initially inflated customer segment net sales to ~$192M, systematically cleansing customer entity records to reconcile the model down to the exact benchmark of **$177,134,263.74**.
