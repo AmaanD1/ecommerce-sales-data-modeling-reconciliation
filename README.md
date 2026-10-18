@@ -1,7 +1,6 @@
 # E-Commerce Sales: Revenue Reconciliation, Data Modeling & Multi-Table Analysis
 
 ## 1. Project Overview
-# E-Commerce Sales: Revenue Reconciliation, Data Modeling & Multi-Table Analysis
 
 > **Dataset Size Notice:** Due to GitHub's 25 MB web upload limit on 150K+ multi-table transaction files, the complete, interactive workbook is hosted on Google Drive.
 
