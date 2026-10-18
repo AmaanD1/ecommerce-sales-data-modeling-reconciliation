@@ -42,6 +42,8 @@ To avoid flat-file performance bottlenecks and volatile lookup formulas (`VLOOKU
   * **Key:** `product_id`
   * **Cardinality:** One-to-Many ($1:\infty$)
   * **Role:** Allows product catalog categories to filter and group item-level profitability.
+  * ### Relational Diagram View
+![Power Pivot Schema Diagram](data_model_schema.png)
 
 ---
 
@@ -75,6 +77,8 @@ To avoid flat-file performance bottlenecks and volatile lookup formulas (`VLOOKU
 * **Synchronized Cross-Filtering:** Configured global Slicers wired to all three Pivot Tables via **Report Connections** for simultaneous, single-click updates across tables and charts.
 * **Centralized Navigation Architecture:** Implemented sheet navigation buttons exclusively on the main dashboard menu, protecting high-volume data sheets from accidental layout corruption or broken Data Model links.
 * **Executive Formatting:** Formatted all financial fields to clean US Dollar currency (`$`) with zero decimals.
+* ### Executive Dashboard Interface
+![Executive Dashboard View](dashboard_view.png)
 
 ---
 
