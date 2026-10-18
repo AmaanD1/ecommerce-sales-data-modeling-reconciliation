@@ -5,7 +5,7 @@
 > **Dataset Size Notice:** Due to GitHub's 25 MB web upload limit on 150K+ multi-table transaction files, the complete, interactive workbook is hosted on Google Drive.
 
 ### 📥 Project Access
-* **Full Interactive Workbook (.xlsb, ~80 MB):** [Click to Download via Google Drive](https://drive.google.com/uc?export=download&id=1MhA84TKiPsM6kHXba7nENGOXUynVFisc)
+* **Full Interactive Workbook (.xlsx, ~100 MB):** [Click to Download via Google Drive](https://drive.google.com/uc?export=download&id=1MhA84TKiPsM6kHXba7nENGOXUynVFisc)
 * **Visual Previews:** See the embedded dashboard and schema screenshots below.
 
 ---
